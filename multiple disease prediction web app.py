@@ -11,11 +11,11 @@ import streamlit as st
 import pickle
 from streamlit_option_menu import option_menu
 
-diabetes_model = pickle.load(open('C:/Users/ASUS/Downloads/work/machinelearning/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('C:\Users\mps\Downloads\Multiple-disease-prediction-using-streamlit-main\Multiple-disease-prediction-using-streamlit-main/diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/ASUS/Downloads/work/machinelearning/heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('C:\Users\mps\Downloads\Multiple-disease-prediction-using-streamlit-main\Multiple-disease-prediction-using-streamlit-main/heart_disease_model.sav','rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/ASUS/Downloads/work/machinelearning/parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('C:\Users\mps\Downloads\Multiple-disease-prediction-using-streamlit-main\Multiple-disease-prediction-using-streamlit-main/parkinsons_model.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
